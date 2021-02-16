@@ -20,12 +20,16 @@ body {
   background-color: #252851;
   font-family: 'Lobster', cursive;
   color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0
 }
 p {
-  box-sizing: border-box;
-  display: inline-flex;
+  /* box-sizing: border-box; */
   text-align: left;
-  width: 25%;
+  width: 100%;
 }
 .navbar {
 position: fixed;
@@ -75,20 +79,31 @@ a {
 }
 .youtubeVideos {
   position: relative;
-  display: flex;
-  width: 100%;
+  display: inline-block;
+  width: 50%;
   height: auto;
   overflow: hidden;
   padding-top: 56.25%; /* 16:9 Aspect Ratio */
   text-align: center;
 }
 .responsive-iframe {
+  display: inline-block;
+  padding-left: 50px;
   position: absolute;
-  display: flex;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  width: 50%;
+  width: 100%;
   height: 50%;
+}
+
+.aboutDescription {
+  width: 50%;
+  display: inline-block;
+}
+.songs {
+  padding-left: 5vw;
+  padding right: 5vw;
+  display: inline-block;
 }
