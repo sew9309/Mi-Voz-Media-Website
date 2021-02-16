@@ -1,0 +1,94 @@
+#logo {
+  width: 50vw;
+  margin-left: 1px;
+  /* padding-top: 10vh; */
+  display: inline-block;
+}
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding-bottom: 250px;
+}
+title {
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+body {
+  background-color: #252851;
+  font-family: 'Lobster', cursive;
+  color: white;
+}
+p {
+  box-sizing: border-box;
+  display: inline-flex;
+  text-align: left;
+  width: 25%;
+}
+.navbar {
+position: fixed;
+display: inline-block;
+/* border-left: 25px; */
+/* padding-left: 100px; */
+display: inline-block;
+background: #252851;
+width: 100vw;
+z-index: 1;
+}
+.navbar a {
+  float: left;
+  display: inline-block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+a {
+  color: hotpink;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+.logo {
+  text-align: left;
+  display: inline-block;
+}
+
+.themixtapeslogo {
+  text-align: center;
+}
+.splitImg {
+  width: 25%;
+  height: auto;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: inline-block;
+  object-fit: contain;
+}
+#splitFaces {
+  margin-top: 10vh;
+  position: relative;
+  width: 100vw;
+  height: 500px;
+  display: inline-block;
+  text-align: center;
+}
+.youtubeVideos {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  text-align: center;
+}
+.responsive-iframe {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+}
